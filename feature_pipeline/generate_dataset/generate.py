@@ -23,10 +23,6 @@ logger.warning(
     Remove the 'settings.patch_localhost()' call from above when deploying or running inside Docker."
 )
 
-from .chunk_documents import chunk_documents
-from .file_handler import FileHandler
-from .llm_communication import GptCommunicator
-
 logger = get_logger(__name__)
 
 class DatasetUploader:
