@@ -1,0 +1,15 @@
+accelerate
+torch
+transformers
+datasets
+peft
+trl
+bitsandbytes
+comet-ml
+flash-attn
+unsloth
+pandas
+sklearn
+pydantic_settings
+pydantic
+
