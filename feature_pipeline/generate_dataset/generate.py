@@ -129,7 +129,7 @@ if __name__ == "__main__":
     )
 
     csv_path = "dataset/mle_screening_dataset.csv"
-    data_type = "your_data_type"
+    data_type = "csv"
 
     dataset_uploader = DatasetUploader()
     dataset_uploader.validate_and_upload_csv(csv_path, data_type)
